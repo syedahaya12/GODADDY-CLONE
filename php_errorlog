@@ -1,0 +1,15 @@
+[10-Aug-2025 09:47:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbdv525eoogk96`.`domains`, CONSTRAINT `domains_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php:34
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php(34): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php on line 34
+[10-Aug-2025 09:50:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Haya' for key 'users.username' in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/register.php:14
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/register.php(14): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/register.php on line 14
+[13-Aug-2025 10:30:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbdv525eoogk96`.`domains`, CONSTRAINT `domains_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php:34
+Stack trace:
+#0 /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php(34): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa110.millioncoders.net/public_html/GODADDY/search.php on line 34
